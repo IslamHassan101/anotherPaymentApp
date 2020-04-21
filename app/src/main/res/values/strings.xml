@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">anotherPaymentApp</string>
+    <string name="amount">Amount</string>
+    <string name="card_name">Card Name</string>
+    <string name="upi_id">UPI ID</string>
+    <string name="note">NOTE</string>
+    <string name="pay">Pay</string>
+</resources>

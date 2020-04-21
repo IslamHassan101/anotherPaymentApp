@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <EditText
+        android:layout_marginTop="24dp"
+        android:id="@+id/edt_Amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/amount"/>
+    <EditText
+        android:id="@+id/edt_card_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/card_name"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/edt_Amount"/>
+    <EditText
+        android:id="@+id/edt_UPI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/upi_id"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/edt_card_name"/>
+    <EditText
+        android:id="@+id/edt_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/note"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/edt_UPI"/>
+
+    <Button
+        android:id="@+id/but_Pay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="255dp"
+        android:text="@string/pay" />
+
+
+</RelativeLayout>
